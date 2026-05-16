@@ -5,9 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "category-encoders>=2.8.1",
     "d2l>=0.17.0",
     "jupyter>=1.1.1",
+    "kagglehub>=1.0.1",
     "rise>=5.7.1",
+    "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
     "torch>=2.11.0",
     "torchvision>=0.26.0",
